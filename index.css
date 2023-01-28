@@ -1,0 +1,99 @@
+body {
+    font-family: arial, sans-serif;
+
+}
+
+form#forminfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+form#forminfo .formContact {
+    font-size: 30px;
+}
+
+form#forminfo .formContact input {
+    padding: 15px;
+
+    border-radius: 3px;
+    font-size: 15px;
+    height: 10px;
+}
+
+#fname {
+    width: 110px;
+}
+
+#cname {
+    width: 349px;
+}
+
+#saveButton {
+    height: 45px;
+    width: 382px;
+    background: #7ecf7e;
+    cursor: pointer;
+}
+
+form#formsearch {
+    margin: 59px 100px 0px 100px;
+}
+
+form#formsearch #searchSection {
+    width: 750px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+
+form#formsearch #searchSection input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    opacity: 0.7;
+}
+
+form#formsearch #searchSection svg {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background: #b7b1b1;
+}
+
+td,
+th {
+
+    text-align: center;
+    padding: 8px;
+    border: 1px solid;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#infoTable {
+    margin-top: 22px;
+}
